@@ -3,7 +3,7 @@
 
 ```mermaid
 graph TD
-    A[Start: Request for Excess Cost Approval] --> B{1) Is the procedure lifesaving?};
+    A[Start: Request for Excess Cost Approval] --> B{1) Is the procedurelivesaving?};
 
     B -- No --> C{2) What is the current functional limitation?};
     B -- Yes --> D{Is the prognosis after the procedure fair?};
