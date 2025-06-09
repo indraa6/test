@@ -1,6 +1,5 @@
 # Excess Cost Approval Process Flow
 
-Here is the detailed flow diagram for the excess cost approval algorithm:
 
 ```mermaid
 graph TD
@@ -63,19 +62,4 @@ graph TD
     X -- "Significantly less effective" --> P_provisional;
 
     Q -- Yes --> Z[Approve definitively];
-    Q -- No --> AA[Seek clarification, negotiate];
-
-    Y --> G[End];
-    Z --> G;
-    AA --> G;
-    E_approve[Approve] --> G;
-    P_provisional[Approve provisionally.] --> Q;
-    F --> G;
-    U --> G;
-
-    style E_approve fill:#9CF,stroke:#333,stroke-width:2px;
-    style P_provisional fill:#FFC,stroke:#333,stroke-width:2px;
-    style Z fill:#9CF,stroke:#333,stroke-width:2px;
-    style F fill:#F9C,stroke:#333,stroke-width:2px;
-    style U fill:#F9C,stroke:#333,stroke-width:2px;
-    style Y fill:#F9C,stroke:#333,stroke-width:2px;
+    Q -- No --> AA[Seek clarification,
